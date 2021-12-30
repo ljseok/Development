@@ -1,4 +1,5 @@
-Pillar = [[]] # 기둥
+'''
+illar = [[]] # 기둥
 Bar = [[]] # 보
 
 def checkPillar(x,y):
@@ -23,8 +24,6 @@ def canDel(x,y):
             if Bar[i][j] and checkBar(i,j) == False:
                 return False
      return True
-
-
 
 def solution(n, build_frame):
     global Pillar , Bar
@@ -56,3 +55,5 @@ def solution(n, build_frame):
             if Bar[x][[y]:
                 ans.append([x,y,1])
     return ans
+
+    '''

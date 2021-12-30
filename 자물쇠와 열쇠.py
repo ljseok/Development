@@ -1,3 +1,4 @@
+
 def match(array, key, rot, row, col):
     n = len(key) # 열쇠의 크기
     for i in range(n):
@@ -19,7 +20,7 @@ def check(array, offset, n):
     return True
 
 def solution(key, lock):
-    offset = len(key)- 1 # 일정한 거리만큼 떨어진 거리
+    offset = len(key) - 1 # 일정한 거리만큼 떨어진 거리
 
     for row in range(offset + len(lock)): # row위치 옵셋에서 자물쇠 만큼 더한 값
         for col in range(offset + len(lock)): # col위치 옵셋에서 자물쇠 만큼 더한 값

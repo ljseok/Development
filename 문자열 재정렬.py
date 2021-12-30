@@ -14,3 +14,4 @@ if value !=0: # 숫자가 존재한다면
     result.append(str(value))
 
 print(' '.join(result))
+
